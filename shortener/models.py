@@ -1,6 +1,6 @@
 from django.db import models
 
-class shorten(models.Model):
+class Shorten(models.Model):
     url = models.CharField(max_length=250)
     slug = models.CharField(max_length=100)
 
